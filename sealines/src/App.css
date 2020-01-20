@@ -1,0 +1,42 @@
+#root {
+  display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+* {
+  box-sizing: border-box;
+}
+p,h5{
+  margin: 0;
+}
+body {
+  margin: 0;
+  
+}
+.navbar {
+  grid-column:1/4;
+  background-color: bisque;
+}
+aside {
+  background-color: gainsboro;
+}
+.result {
+  padding:15px;
+  background-color: honeydew;
+}
+.card {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+}
+.card h5 {
+  text-align: center;
+  margin:10px 0;
+}
+.options {
+  display: flex;
+}
+.option-item {
+  width: 50%;
+}
