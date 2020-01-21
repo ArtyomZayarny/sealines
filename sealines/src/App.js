@@ -23,7 +23,6 @@ constructor(props) {
         });
        }
      )
-    
   }
 
   render() {
