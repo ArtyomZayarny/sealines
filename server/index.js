@@ -47,6 +47,47 @@ let array = [{
 }, {
     "transShipments": [{
         "type": 1,
+        "vesselName": "MSC LEA",
+        "vesselCode": null,
+        "voyage": "DJ002R",
+        "departure": {
+            "date": 1579236360,
+            "portName": "ODESSA",
+            "portUnloCode": "UAODS",
+            "terminal": "HPC - UKRAINA"
+        },
+        "arrival": {
+            "date": null,
+            "portName": "Port Said East",
+            "portUnloCode": "EGPSE",
+            "terminal": null
+        },
+        "service": "null"
+    }, {
+        "type": 1,
+        "vesselName": "TBN",
+        "vesselCode": "TBN",
+        "voyage": "TBN",
+        "departure": {
+            "date": null,
+            "portName": "Port Said East",
+            "portUnloCode": "EGPSE",
+            "terminal": null
+        },
+        "arrival": {
+            "date": 1583055360,
+            "portName": "NINGBO",
+            "portUnloCode": "CNNGB",
+            "terminal": null
+        },
+        "service": "BEX"
+    }],
+    "cutOff": 1579149960,
+    "transitTime": 44,
+    "sealine": "MSCU"
+}, {
+    "transShipments": [{
+        "type": 1,
         "vesselName": "MSC MASHA 3",
         "vesselCode": null,
         "voyage": "DJ003R",

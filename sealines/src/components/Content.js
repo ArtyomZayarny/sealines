@@ -83,15 +83,7 @@ class Content extends Component {
         })
         return Array.from(services)
     }
-<<<<<<< HEAD
-     filterBy = (options,action) => {
-           if (action) {
-               const options = this.state.filter
-               options.push(options);
-               this.setState({
-                    filter:options
-               }) 
-=======
+
     filterBy =(options,action,type)=> {
         switch(type) {
             case 'sealines':
@@ -150,7 +142,6 @@ class Content extends Component {
                               servicesFilter:updateFilter,
                              responseList:sortByDeparture(filter(this.state.responseList,updateFilter,'services'))
                           })
-
                       }
 
                       }
@@ -160,8 +151,6 @@ class Content extends Component {
                 console.log('Filter type is undefined');
                 break
         }
->>>>>>> 2054959ba8d53894475de631051f9ea3cbfb508f
-
     }
 
     allowFilters = (responseList) => {
