@@ -192,7 +192,7 @@ class Content extends Component {
         })
         return Array.from(services)
     }
-     filterBy =(options,action)=> {
+     filterBy = (options,action) => {
            if (action) {
                const options = this.state.filter
                options.push(options);
