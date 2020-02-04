@@ -19,6 +19,9 @@ body {
 aside {
   background-color: gainsboro;
 }
+aside label {
+  display: block;
+}
 .result {
   padding:15px;
   background-color: honeydew;
